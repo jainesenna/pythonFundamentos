@@ -132,7 +132,7 @@ def game_over():
     canvas.itemconfig(game, text="Game over!")
 
 
-Barra = Barra(canvas, "orange")
+Barra = Barra(canvas, "blue")
 Bola = Bola(canvas, Barra, "purple")
 
 
@@ -143,3 +143,7 @@ game = canvas.create_text(400, 300, text=" ", fill="red", font=("Arial", 40))
 canvas.bind_all("<Button-1>", start_game)
 
 root.mainloop()
+
+# O Erro: ImportError: No module named 'Tkinter' 
+# foi corrigido com o camnado abaixo
+# sudo apt-get install python3-tk
