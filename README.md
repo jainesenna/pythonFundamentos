@@ -1,3 +1,3 @@
-# pythonFundamentos
+# Python Fundamentos para Análise de Dados
 
-https://www.datascienceacademy.com.br/course?courseid=python-fundamentos
+[Python Fundamentos para Análise de Dados](https://www.datascienceacademy.com.br/course?courseid=python-fundamentos)
